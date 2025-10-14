@@ -1,0 +1,1 @@
+import{W as t,q as r}from"#entry";import{u as i}from"./B3RAIxuh.js";const d=t((e,a)=>{const o=i();if(console.log("auth",o.isLoggedIn),o.initFromStorage(),!o.isLoggedIn&&e.path!=="/login")return r("/login");if(o.isLoggedIn&&e.path==="/login")return r("/dashboard/records")});export{d as default};
